@@ -110,7 +110,13 @@ cd www
 git clone https://bitbucket.org/kibal4iw/vagrant-lamp-php7.git
 cd ~
 
-echo "Installation ended! Pleace Install vagrant!"
+echo "Installation ended! Pleace Install vagrant! "
+echo "Configure file '/usr/share/kservices5/ServiceMenus/konsolehere.desktop'"
+echo "Insert there this lines:"
+echo "[Desktop Action openTerminalHere]
+TryExec=tilix
+Exec=tilix -w %f
+Icon=utilities-terminal"
 
 #echo "Set up SWAP-file"
 #sudo swapoff /swapfile
