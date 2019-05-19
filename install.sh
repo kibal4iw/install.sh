@@ -104,6 +104,9 @@ rm libgoocanvas3_1.0.0-1_amd64.deb
 rm libgoo-canvas-perl_0.06-2ubuntu3_amd64.deb
 cd ~
 
+echo "Installfonts-noto-color-emoji в Ubuntu link: https://onstartup.ru/shrifty/fonts-noto-color-emoji/"
+sudo apt install fonts-noto-color-emoji
+
 echo "Load vagrant project"
 mkdir www
 cd www
