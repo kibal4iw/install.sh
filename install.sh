@@ -54,7 +54,7 @@ cd "~/Загрузки/"
 wget https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
 sudo dpkg -i --ignore-depends=libssl1.0.0 viber.deb
 
-echo "Configure file '/usr/share/kservices5/ServiceMenus/konsolehere.desktop'"
+echo "Configure file 'sudo nano /usr/share/kservices5/ServiceMenus/konsolehere.desktop'"
 echo "Insert there this lines:"
 echo "[Desktop Action openTerminalHere]
 TryExec=tilix
