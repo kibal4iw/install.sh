@@ -20,7 +20,6 @@ sudo apt-get install -y mysql-client
 sudo apt-get install -y gimp
 sudo apt-get install -y tilix
 sudo apt-get install -y fonts-noto-color-emoji
-sudo apt-get install -y fonts-noto-color-emoji
 
 echo "Add repos"
 sudo apt-add-repository -y ppa:teejee2008/ppa
