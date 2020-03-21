@@ -62,6 +62,17 @@ TryExec=tilix
 Exec=tilix -w %f
 Icon=utilities-terminal"
 
+# /home/a-panteleev/.config/kglobalshortcutsrc
+#[shutter.desktop]
+#Active=,none,Capture the current active window
+#Redo=none,none,Redo last screenshot
+#Screen=,none,Capture the entire screen
+#Select=Shift+Print,none,Capture an area of the screen
+#Window=,none,Select a window to capture
+#_k_friendly_name=Запустить Shutter
+#_launch=,none,Запустить Shutter
+
+
 #echo "Install touchpad driver"
 #dpkg -l | grep xorg | grep synaptics
 #sudo apt-get install -y xserver-xorg-input-synaptics
