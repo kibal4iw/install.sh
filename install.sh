@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#################################################################
+# This install.sh works with Kubuntu 19.04 and Kubuntu 19.10!!!##
+#################################################################
+
 # How to run script: https://losst.ru/zapusk-skripta-sh-v-linux
 echo "Update instalation..."
 sudo apt-get update -y && sudo apt-get upgrade -y
