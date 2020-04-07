@@ -5,6 +5,7 @@ echo "Update instalation..."
 sudo apt-get update -y && sudo apt-get upgrade -y
 
 echo "Update soft part 1"
+sudo apt-get install -y tilix
 sudo apt-get install -y lattedoc
 sudo apt-get install -y vagrant
 sudo apt-get install -y virtualbox
@@ -18,8 +19,9 @@ sudo apt-get install -y git
 sudo apt-get install -y filezilla
 sudo apt-get install -y mysql-client
 sudo apt-get install -y gimp
-sudo apt-get install -y tilix
 sudo apt-get install -y fonts-noto-color-emoji
+sudo apt-get install -y net-tools
+sudo apt-get install -y tree
 
 echo "Add repos"
 sudo apt-add-repository -y ppa:teejee2008/ppa
@@ -27,6 +29,7 @@ sudo add-apt-repository -y ppa:gezakovacs/ppa
 sudo add-apt-repository -y ppa:serge-rider/dbeaver-ce
 sudo add-apt-repository -y ppa:atareao/atareao
 sudo add-apt-repository -y ppa:linuxuprising/shutter
+sudo add-apt-repository -y ppa:ubuntuhandbook1/apps
 
 echo "Install soft from repos"
 sudo apt-get update -y
@@ -35,6 +38,8 @@ sudo apt-get install -y timeshift
 sudo apt-get install -y dbeaver-ce
 sudo apt-get install -y touchpad-indicator
 sudo apt-get install -y shutter
+sudo apt-get install -y vokoscreen-ng
+sudo apt-get install -y ubuntu-restricted-extras
 
 echo "Install from snapcraft.io soft"
 sudo snap install telegram-desktop
@@ -42,6 +47,7 @@ sudo snap install skype --classic
 sudo snap install code --classic
 sudo snap install bitwarden
 sudo snap install postman
+sudo snap install phpstorm --classic
 
 echo "Download ticktick to-do"
 cd "~"
