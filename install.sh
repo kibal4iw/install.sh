@@ -52,6 +52,7 @@ sudo snap install code --classic
 sudo snap install bitwarden
 sudo snap install postman
 sudo snap install phpstorm --classic
+sudo snap install gotop
 
 echo "Download ticktick to-do"
 cd "~"
