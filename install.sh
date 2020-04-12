@@ -26,6 +26,8 @@ sudo apt-get install -y gimp
 sudo apt-get install -y fonts-noto-color-emoji
 sudo apt-get install -y net-tools
 sudo apt-get install -y tree
+sudo apt-get install -y httpie
+sudo apt-get install -y atop
 
 echo "Add repos"
 sudo apt-add-repository -y ppa:teejee2008/ppa
@@ -53,6 +55,7 @@ sudo snap install bitwarden
 sudo snap install postman
 sudo snap install phpstorm --classic
 sudo snap install gotop
+sudo snap install httpstat # https://m.habr.com/ru/post/494506/comments/
 
 echo "Download ticktick to-do"
 cd "~"
